@@ -3,6 +3,7 @@ applications:
 - name: sample-nodejs-app
   memory: 128M
   instances: 1
-  buildpack: sdk-for-nodejs
+  buildpacks:
+    - staticfile_buildpack
 #   domain: mybluemix.net
   command: npm start
