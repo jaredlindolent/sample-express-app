@@ -7,3 +7,4 @@ applications:
     - staticfile_buildpack
 #   domain: mybluemix.net
   command: npm start
+  random-route: true
